@@ -39,6 +39,7 @@ get_Pname = get_Pname.capitalize()
 player_data.update({'name': get_Pname})
 welcome_text = f'''Welcome to the game, {player_data['name']}!'''
 print(welcome_text)
+print('halo')
 
 # ghoul_damage = commonEnemy_Type1[0]['damage']
 # print(f'Ghoul memberikan damage: -{ghoul_damage}')
